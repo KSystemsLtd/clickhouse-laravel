@@ -53,7 +53,7 @@ class ServiceProvider extends LaravelServiceProvider
     public function provides()
     {
         return [
-            ClickHouse::class,
+            ClickHouseDB::class,
         ];
     }
 }
